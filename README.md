@@ -7,7 +7,7 @@ I build systems that answer from real data, measure whether they got it right, a
 
 <p align="center">
   <a href="https://nusukhan.github.io">🌐 Portfolio</a> ·
-  <a href="https://www.linkedin.com/">💼 LinkedIn</a> ·
+  <a href="https://www.linkedin.com/in/nusrat-anwar-b5b836251">💼 LinkedIn</a> ·
   <a href="mailto:nusratanwar000@gmail.com">✉️ Email</a>
 </p>
 
@@ -19,9 +19,9 @@ I'm an AI/ML engineer based in Pakistan, available for work (remote or on-site).
 
 A model that *runs* is not the same as a model that *works*. Across every project below the method is the same: build it, measure it against a held-out set, compare it to a baseline, and report what the measurement actually said — including the limitation I found while looking for it.
 
-- 🔭 Six projects, each one evaluated
+- 🔭 Seven projects, each one evaluated
 - 🚀 Two deployed as a live app or API
-- 📊 Spanning RAG, imbalanced classification, regression, object detection and computer vision
+- 📊 Spanning RAG, imbalanced classification, regression, object detection, computer vision and medical imaging
 - 📫 Reach me at **nusratanwar000@gmail.com**
 
 ---
@@ -96,6 +96,14 @@ A convolutional network that names the fruit in a photo and reports its confiden
 **100% test accuracy on Fruits-360 (clean dataset — honest caveat in the repo)**
 `Python` `TensorFlow/Keras` `scikit-learn` `NumPy` `Google Colab`
 🔗 **[View repo →](https://github.com/nusukhan/fruit-classification-cnn)**
+
+---
+
+### 🫁 Pneumonia Detection from Chest X-Rays
+A CNN (built from scratch) that classifies chest X-rays as Normal or Pneumonia with a confidence score, served through a FastAPI + web interface. Handled a 3:1 class imbalance with class weights, rebuilt a proper validation split, and prioritised recall — because in medical AI a missed positive is the costliest error. *Educational project, not a diagnostic tool.*
+**91% test accuracy · pneumonia recall 0.96 · normal recall 0.82 (624 unseen images)**
+`Python` `TensorFlow/Keras` `FastAPI` `Pillow` `NumPy` `Google Colab`
+🔗 **[View repo →](https://github.com/nusukhan/pneumonia-detection)**
 
 ---
 
